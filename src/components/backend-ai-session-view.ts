@@ -491,7 +491,7 @@ export default class BackendAISessionView extends BackendAIPage {
         <div slot="message">
           <h3 class="tab horizontal center layout" style="margin-top:0;margin-bottom:0;">
             <div class="scroll hide-scrollbar">
-              <div class="horizontal layout flex start-justified" style="width:70%;">
+              <div class="horizontal layout flex start-justified" style="overFlow:auto;">
                 <mwc-tab-bar>
                   <mwc-tab title="running" label="${_t('session.Running')}" @click="${(e) => this._showTab(e.target)}"></mwc-tab>
                   <mwc-tab title="interactive" label="${_t('session.Interactive')}" @click="${(e) => this._showTab(e.target)}"></mwc-tab>
