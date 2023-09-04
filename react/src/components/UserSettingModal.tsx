@@ -217,9 +217,7 @@ const UserSettingModal: React.FC<Props> = ({
         preserve={false}
         form={form}
         labelCol={{ span: 10 }}
-        wrapperCol={{ span: 20 }}
         validateTrigger={['onChange', 'onBlur']}
-        style={{ marginBottom: 40, marginTop: 20 }}
         initialValues={{ ...user }}
       >
         <Form.Item name="email" label={t('credential.UserID')}>
